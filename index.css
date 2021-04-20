@@ -55,10 +55,10 @@ input{
 .button-search{
     margin: 0;
     padding: 0;
-    line-height: 100%; /* Si ça fonctionne pas mets 0 */
+    line-height: 100%; 
     border: 0;
-    background: #0065FC; /* ou transparent je sais plus... */
-    font: /* Définis le même font qu'un lien traditionnel */;
+    background: #0065FC; 
+    font: none;
     color: white;
     background-color: #0065FC;
     text-decoration: none;
