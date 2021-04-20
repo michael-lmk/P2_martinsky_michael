@@ -1,0 +1,84 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+body{
+    
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.links{
+    display: flex;
+    flex: 1;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    display: flex;
+    text-decoration: none;
+    color : black;
+    padding: 1em;
+    
+}
+
+.nav-link:hover{
+    color : #0065FC;
+    border-top: 2px solid #0065FC;
+    
+}
+
+.logo{
+    position: absolute;
+}
+
+input{
+    height: 35px;
+}
+
+.maker-icon{
+    background-color: #F2F2F2;
+    padding-left: 10px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.button-search{
+    margin: 0;
+    padding: 0;
+    line-height: 100%; /* Si ça fonctionne pas mets 0 */
+    border: 0;
+    background: #0065FC; /* ou transparent je sais plus... */
+    font: /* Définis le même font qu'un lien traditionnel */;
+    color: white;
+    background-color: #0065FC;
+    text-decoration: none;
+    padding-right: 10px;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+.input-group{
+    display: flex; 
+    padding-left: 5px;
+}
+
+
+/* 
+@media screen and (max-width: 550px) {
+    nav {
+        flex-wrap: wrap-reverse;
+    }
+    span{
+        
+    }
+} */
