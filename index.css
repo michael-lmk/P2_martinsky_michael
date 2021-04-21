@@ -248,3 +248,52 @@ input{
 /****************************/
 /*      Fin hébergement     */
 /****************************/
+
+/****************************/
+/*       Debut Etoile       */
+/****************************/
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+}
+
+.rating-popular{
+    flex: 1;
+    align-items: flex-end;
+}
+
+.rating a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color .4s;
+}
+
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+    color: #0065FC;
+    cursor: pointer;
+}
+
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+    content: attr(data-color, false);
+    color: #0065FC;
+    cursor: pointer;
+}
+
+.rating a[data-color="true"]{
+    color: #0065FC;
+    cursor: pointer;
+}
+
+
+/****************************/
+/*        Fin Etoile        */
+/****************************/
