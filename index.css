@@ -297,3 +297,60 @@ input{
 /****************************/
 /*        Fin Etoile        */
 /****************************/
+
+/****************************/
+/*      Debut populaire     */
+/****************************/
+
+.most-popular{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1 9;
+    background-color: #F2F2F2;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+.popular-header{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.items-popular{
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+}
+
+.item-popular{
+    display: flex;
+    height: 150px;
+    width: 350px;
+    border-radius: 40px;
+    border: 7px solid  white;
+    margin-bottom: 2em;
+    overflow: hidden;
+    filter: drop-shadow(0 0 0.90rem  rgb(153, 153, 153) );
+}
+
+.desc-popular{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    padding-left: 1em;
+}
+
+.images-popular{
+    object-fit: cover;
+    width: 40%;
+    height: 100%;
+}
+
+/****************************/
+/*       Fin populaire      */
+/****************************/
