@@ -22,18 +22,21 @@
         </nav>
     </header>
     <main>
-        <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre ville ou en pleine nature</p>
 
-        <div class="input-group">
-            <div class="">
-                <i class="maker-icon fas fa-map-marker-alt"></i>
-              <input type="search" id="form1" class="form-control" />
-            </div>
-            <input class="button-search" value="Recherche" type="button" class="btn btn-primary">
-        </div>
-        <section>
-            
+        <form class="input-group" method="POST">
+            <span class="icon"><i class="maker-icon fas fa-map-marker-alt"></i></span>
+            <input class="search" type="text" id="form1" class="form-control" value="Marseillle, France" />
+            <input class="button-search" value="Recherche" type="submit" />
+        </form>
+        
+        <section class="sort">
+            <b >Filtres : </b> 
+            <span class="sort-button"><span class="icon-sort"><i class="fas fa-money-bill-wave"></i></span><span class="sort-text">Economique</span></span> 
+            <span class="sort-button"><span class="icon-sort"><i class="fas fa-child"></i></span><span class="sort-text">Famillial</span></span> 
+            <span class="sort-button"><span class="icon-sort"><i class="fas fa-heart"></i></span><span class="sort-text"> Romantique</span></span> 
+            <span class="sort-button"><span class="icon-sort"><i class="fas fa-dog"></i></span><span class="sort-text">Animaux autorisés</span></span>
         </section>
         <aside>
 
