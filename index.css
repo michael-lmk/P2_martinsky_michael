@@ -2,10 +2,14 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
 body{
-    
+    padding: 0;
+    margin: 0;
+}
+
+
+
+main{
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -354,3 +358,55 @@ input{
 /****************************/
 /*       Fin populaire      */
 /****************************/
+
+/****************************/
+/*      Debut activité      */
+/****************************/
+
+.sec-activity{
+    display: flex;
+    flex:1;
+    height: 40em;
+}
+
+.activity-name{
+    flex: 1;
+    padding-left: 1em;
+    
+}
+
+.activity-large{
+    
+}
+
+.double-activity{
+    height: 100%;
+
+}
+
+.col-activity{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.activity-item{
+    display: flex;
+    flex: 1;
+    margin: 2em;
+    filter: drop-shadow(0 0 0.90rem  rgb(153, 153, 153) );
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.images-activity{
+    flex: 10;
+    object-fit: cover;
+    height: 1px;
+}
+
+/****************************/
+/*       Fin activité       */
+/****************************/
+
