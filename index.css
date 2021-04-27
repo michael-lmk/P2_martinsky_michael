@@ -24,6 +24,28 @@ main{
     margin-right: 2em;
 }
 
+header{
+    padding: 1em;
+}
+
+@media screen and (max-width: 981px){
+    main{
+        margin: 0;
+        padding: 0;
+    }
+
+    .col-activity{
+        width: 100%  !important;
+    }
+    .activity-item{
+        margin: 1em !important;
+    }
+    .big-column{
+        height: 50% !important;
+    }
+}
+
+
 /****************************/
 /*     Debut Navigation     */
 /****************************/
@@ -168,7 +190,7 @@ input{
 .sort-item{
     display: flex;
     align-items: center;
-    padding-left: 1em;
+    padding-left: 0.5em;
 }
 
 /****************************/
@@ -404,6 +426,7 @@ input{
     display: flex;
     flex-direction: column;
     width: 459px;
+    height: 100%;
 }
 
 .activity-item{
@@ -431,9 +454,6 @@ input{
     height: 50%;
 }
 
-.large-activity{
-    height: 100%;
-}
 
 
 

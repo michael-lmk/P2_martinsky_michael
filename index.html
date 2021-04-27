@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    
         <nav>
             <div>
                 <a href="." alt="logo-site"><img src="images\logo\Reservia.svg"></a>
@@ -23,50 +23,52 @@
                 <a class="nav-link" href=""><b>S'inscrire</b></a>
             </div>
         </nav>
-    </header>
+    
     <main>
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <p>En plein centre ville ou en pleine nature</p>
+        <header>
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en pleine nature</p>
 
-        <form class="input-group" method="POST">
-            <span class="icon"><i class="maker-icon fas fa-map-marker-alt"></i></span>
-            <input class="search" type="text" id="form1" class="form-control" value="Marseillle, France" />
-            <input class="button-search" value="Recherche" type="submit" />
-        </form>
+            <form class="input-group" method="POST">
+                <span class="icon"><i class="maker-icon fas fa-map-marker-alt"></i></span>
+                <input class="search" type="text" id="form1" class="form-control" value="Marseillle, France" />
+                <input class="button-search" value="Recherche" type="submit" />
+            </form>
 
-        <section class="sort">
-            <b>Filtres : </b>
-            <div class="sort-item">
-                <span class="icon-sort"><i class="fas fa-money-bill-wave"></i></span>
-                <a class="sort-button">    
-                    <span class="sort-text">Economique</span>
-                </a>
-            </div>
+            <section class="sort">
+                <b>Filtres : </b>
+                <div class="sort-item">
+                    <span class="icon-sort"><i class="fas fa-money-bill-wave"></i></span>
+                    <a class="sort-button">    
+                        <span class="sort-text">Economique</span>
+                    </a>
+                </div>
 
-            <div class="sort-item">
-                <span class="icon-sort"><i class="fas fa-child"></i></span>
-                <span class="sort-button">
-                    <a class="sort-text">Famillial</a>
-                </span>
-            </div>
-            
-            <div class="sort-item">
-                <span class="icon-sort"><i class="fas fa-heart"></i></span>
-                <span class="sort-button">
-                    <a class="sort-text"> Romantique</a>
-                </span>
-            </div>
+                <div class="sort-item">
+                    <span class="icon-sort"><i class="fas fa-child"></i></span>
+                    <span class="sort-button">
+                        <a class="sort-text">Famillial</a>
+                    </span>
+                </div>
+                
+                <div class="sort-item">
+                    <span class="icon-sort"><i class="fas fa-heart"></i></span>
+                    <span class="sort-button">
+                        <a class="sort-text"> Romantique</a>
+                    </span>
+                </div>
 
-            <div class="sort-item">
-                <span class="icon-sort"><i class="fas fa-dog"></i></span>
-                <span class="sort-button">
-                    <a class="sort-text">Animaux autorisés</a>
-                </span>
-            </div>
-        </section>
-        <span style="display: flex;align-items: center;"><i class="fas fa-info fa-xs"></i>
-            <p class="free">Plus de 500 logements sont disponible dans cette ville</p>
-        </span>
+                <div class="sort-item">
+                    <span class="icon-sort"><i class="fas fa-dog"></i></span>
+                    <span class="sort-button">
+                        <a class="sort-text">Animaux autorisés</a>
+                    </span>
+                </div>
+            </section>
+            <span style="display: flex;align-items: center;"><i class="fas fa-info fa-xs"></i>
+                <p class="free">Plus de 500 logements sont disponible dans cette ville</p>
+            </span>
+        </header>
         <section id="lodging" class="apparts">
             <div class="choose">
                 <h2>Hébergements à Marseilles</h2>
@@ -231,9 +233,9 @@
         <h2>Activités à Marseille</h2>
         <section class="sec-activity">
             
-            <div class="col-activity large-activity">
+            <div class="col-activity big-column">
                 <div class="activity-item ">
-                    <img class="images-activity"
+                    <img class="images-activity img-large"
                         src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
                     <span class="activity-name">
                         <h4>Vieux Port</h4>
@@ -241,7 +243,7 @@
                 </div>
             </div>
 
-            <div class="large-activity">
+            <div class=" col-activity">
                 <div class="col-activity small-activity">
                     <div class=" activity-item ">
                         <img class="images-activity"
@@ -262,17 +264,17 @@
                 </div>
             </div>
 
-            <div class="col-activity large-activity">
+            <div class="col-activity big-column">
                 <div class="activity-item">
-                    <img class="images-activity"
-                        src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
+                    <img class="images-activity img-large" 
+                            src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
                     <span class="activity-name">
                         <h4>Parc Nationnal des Calanques</h4>
                     </span>
                 </div>
             </div>
 
-            <div class="large-activity">
+            <div class=" col-activity">
                 <div class="col-activity small-activity">
                     <div class=" activity-item ">
                         <img class="images-activity"
