@@ -128,9 +128,8 @@ input{
     align-items: center;
     border-radius: 20px;
     margin: 0.5em;
-    border: 1px solid  ;
-    border-left-color: white;
-
+    border: 1px solid lightgray ;
+    z-index: -5;
 }
 
 .search{
@@ -153,15 +152,23 @@ input{
     align-items: center;
     background-color: #DEEBFF;
     border-radius: 40px;
-    padding: 0.2em;
+    padding: 0.24em;
     height: 2em;
     width: 2em;
     color: #0065FC;
+    margin-right: -2.8em;
 
 }
 
 .sort-text{
-    padding:  0.5em;
+    padding:  0.49em;
+    padding-left: 2.5em;
+}
+
+.sort-item{
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
 }
 
 /****************************/
