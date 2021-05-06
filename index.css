@@ -116,7 +116,7 @@ nav {
 
 .logo-site{
     position: absolute;
-    top: 20px;
+    top: 5px;
 }
 
 .nav-phone{
@@ -240,7 +240,7 @@ input{
 /****************************/
 
 .free{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .fa-info{
@@ -280,7 +280,9 @@ input{
     flex-direction: column;
 }
 
-
+.chose-title{
+    padding-left: 1.5em;
+}
 
 .images{
     object-fit: cover;
@@ -395,7 +397,7 @@ input{
     flex: 1 9;
     background-color: #F2F2F2;
     padding: 1em;
-    margin: 1em;
+    margin-left: 1em;
     border-radius: 20px;
 }
 
