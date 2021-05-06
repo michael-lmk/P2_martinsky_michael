@@ -9,13 +9,13 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-    margin-left: 2em;
-    margin-right: 2em;
+    
 }
 
 footer{
     background-color: #F2F2F2;
     padding: 2em;
+    
 }
 
 .sec-footer{    
@@ -24,7 +24,13 @@ footer{
 
 main{
     flex: 1;
-    
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+header{
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 
