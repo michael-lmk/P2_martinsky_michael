@@ -277,7 +277,7 @@ input{
 .choose{
     flex: 3;
     background-color: #F2F2F2;
-    padding: 1em;
+    
     border-radius: 20px;
     display: flex;
     flex-direction: column;
