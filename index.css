@@ -1,7 +1,6 @@
 html{
     font-family: 'Open Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
+
 }
 
 body {
@@ -22,8 +21,8 @@ footer{
 
 main{
     flex: 1;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 header{
@@ -162,11 +161,11 @@ input{
 
 .input-group{
     display: flex; 
-    width: 22em;
     border: 1px solid lightgray ;
     border-radius: 10px;
     z-index: 100;
     overflow: hidden;
+    max-width: 31em;
 }
 
 /****************************/
@@ -282,6 +281,7 @@ input{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin: 0.5em;
 }
 
 .chose-title{
@@ -306,7 +306,7 @@ input{
     display: flex;
     flex-direction: column;
     height: 250px;
-    width: 350px;
+max-width: 350px;
     border-radius: 40px;
     border: 7px solid  white;
     margin-bottom: 2em;
@@ -401,7 +401,7 @@ input{
     flex: 1 9;
     background-color: #F2F2F2;
     padding: 1em;
-
+    margin: 0.5em;
     border-radius: 20px;
 }
 
@@ -421,7 +421,7 @@ input{
 .item-popular{
     display: flex;
     height: 170px;
-    width: 350px;
+    max-width: 350px;
     border-radius: 40px;
     border: 7px solid  white;
     margin-bottom: 2em;
