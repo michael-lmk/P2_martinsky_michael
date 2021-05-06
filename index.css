@@ -1,48 +1,79 @@
 html{
     font-family: 'Open Sans', sans-serif;
-}
-
-body{
-    padding: 0;
-    margin: 0;
-}
-
-footer{
     display: flex;
-    background-color: #F2F2F2;
-    padding: 2em;
+    flex-direction: column;
 }
 
-.sec-footer{
-    display: flex;
-    flex: 1;
-    align-items: center;
-}
-
-main{
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
     margin-left: 2em;
     margin-right: 2em;
 }
 
-header{
-    padding: 1em;
+footer{
+    background-color: #F2F2F2;
+    padding: 2em;
 }
 
-@media screen and (max-width: 981px){
-    main{
-        margin: 0;
-        padding: 0;
+.sec-footer{    
+    align-items: center;
+}
+
+main{
+    flex: 1;
+    
+}
+
+
+
+@media screen and (max-width: 891px){
+    
+    .large-activity{
+        height: 250px!important;
+        margin: 0em!important;
+        margin-left: 0em!important;
+        margin-right: 0em!important;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .col-footer{
+        justify-content: flex-start!important;
+    }
+    .choose{
+        background-color: white!important;
+    }
+    .links{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .nav-phone{
+        width: 100%;
+      
+    }
+    .nav-link:focus{
+        border-top: 0px solid white !important;
+        border-bottom: 3px solid blue;
+    }
+    .nav-link{
+        border-bottom: 3px solid lightgray;
+    }
+    
+    .span-link{
+        flex: 1;
+       
+    }
+    .nav-link{
+        justify-content: center;
+        
+    }
+    .blue{
+        border-bottom: none;
     }
 
-    .col-activity{
-        width: 100%  !important;
-    }
-    .activity-item{
-        margin: 1em !important;
-    }
-    .big-column{
-        height: 50% !important;
-    }
 }
 
 
@@ -74,6 +105,7 @@ nav {
 
 .blue{
     color: #0065FC;
+    border-bottom: nonde;
 }
 
 .nav-link:focus {
@@ -82,8 +114,14 @@ nav {
 
 }
 
-.logo{
+.logo-site{
     position: absolute;
+    top: 20px;
+}
+
+.nav-phone{
+    flex-direction: row;
+    display: flex;
 }
 
 /****************************/
@@ -121,7 +159,7 @@ input{
 .input-group{
     display: flex; 
     width: 22em;
-    border: 1px solid gray ;
+    border: 1px solid lightgray ;
     border-radius: 10px;
     z-index: 100;
     overflow: hidden;
@@ -237,7 +275,6 @@ input{
     flex: 3;
     background-color: #F2F2F2;
     padding: 1em;
-    margin: 1em;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -286,6 +323,12 @@ input{
 
 .price-appart{
     margin: 3px;padding: 0;
+}
+
+.more{
+    text-decoration: none;
+    color : black;
+    margin-left: 2em;
 }
 
 /****************************/
@@ -371,7 +414,7 @@ input{
 
 .item-popular{
     display: flex;
-    height: 150px;
+    height: 170px;
     width: 350px;
     border-radius: 40px;
     border: 7px solid  white;
@@ -404,62 +447,82 @@ input{
 
 .sec-activity{
     display: flex;
-    height: 40em;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.activity-name{
-    padding-left: 1em;
-    z-index: 5;
-    background-color: white;
-    
-}
-
-.double-activity{
-    height: 100%;
-
+    flex-direction: column;
+    flex: 1;
 }
 
 .col-activity{
-    display: flex;
+
     flex-direction: column;
-    width: 459px;
-    height: 100%;
+ 
 }
 
-.activity-item{
+.activity-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-activity{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex: 1;
-    margin: 2em;
-    filter: drop-shadow(0 0 0.90rem  rgb(153, 153, 153) );
-    justify-content: flex-end;
+    width: 350px;
     border-radius: 20px;
     overflow: hidden;
+    filter: drop-shadow(0 0 0.90rem  rgb(153, 153, 153) );
+    
 }
 
 .images-activity{
+    display: flex;
     object-fit: cover;
-    height: 1px;
-    position: absolute;
-    background-size: cover;
-    height: 100%;
     width: 100%;
-    z-index: -3;
+    height: 80%;
+    flex: 3;
 }
+
+.title-activity{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 1em;
+}
+
 
 .small-activity{
-    height: 50%;
+    height: 250px;
+    margin: 2em;
 }
 
-
-
-
+.large-activity{
+    height: 530px;
+    margin: 2em;
+}
 
 
 /****************************/
 /*       Fin activité       */
 /****************************/
 
+/****************************/
+/*      debut footer      */
+/****************************/
+
+footer{
+    display: flex;
+}
+
+.col-footer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+}
+
+.footer-content{
+    display: inline-block
+}

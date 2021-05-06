@@ -13,63 +13,68 @@
 
 <body>
     
-        <nav>
-            <div>
-                <a href="." alt="logo-site"><img src="images\logo\Reservia.svg"></a>
-            </div>
-            <div class="links">
-                <a class="nav-link" href="">Hébergements</a>
-                <a class="nav-link" href="">Activités</a>
-                <a class="nav-link" href=""><b>S'inscrire</b></a>
-            </div>
-        </nav>
     
+    <header>
+    <nav>
+        <div class="logo-site">
+            <a href="." alt="logo-site"><img src="images\logo\Reservia.svg"></a>
+        </div>
+        <div class="links">
+            <div class="nav-phone">
+                <span class="span-link"><a class="nav-link" href="#5">Hébergements</a></span>
+                <span class="span-link"><a class="nav-link" href="#2">Activités</a> </span>
+            </div>
+
+                <a class="nav-link blue" href="#3"><b>S'inscrire</b></a>
+           
+        </div>
+    </nav>
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <p>En plein centre ville ou en pleine nature</p>
+
+        <form class="input-group" method="POST">
+            <span class="icon"><i class="maker-icon fas fa-map-marker-alt"></i></span>
+            <input class="search" type="text" id="form1" class="form-control" value="Marseillle, France" />
+            <input class="button-search" value="Recherche" type="submit" />
+        </form>
+
+        <section class="sort">
+            <b>Filtres : </b>
+            <div class="sort-item">
+                <span class="icon-sort"><i class="fas fa-money-bill-wave"></i></span>
+                <a class="sort-button">    
+                    <span class="sort-text">Economique</span>
+                </a>
+            </div>
+
+            <div class="sort-item">
+                <span class="icon-sort"><i class="fas fa-child"></i></span>
+                <span class="sort-button">
+                    <a class="sort-text">Famillial</a>
+                </span>
+            </div>
+            
+            <div class="sort-item">
+                <span class="icon-sort"><i class="fas fa-heart"></i></span>
+                <span class="sort-button">
+                    <a class="sort-text"> Romantique</a>
+                </span>
+            </div>
+
+            <div class="sort-item">
+                <span class="icon-sort"><i class="fas fa-dog"></i></span>
+                <span class="sort-button">
+                    <a class="sort-text">Animaux autorisés</a>
+                </span>
+            </div>
+        </section>
+        <span style="display: flex;align-items: center;"><i class="fas fa-info fa-xs"></i>
+            <p class="free">Plus de 500 logements sont disponible dans cette ville</p>
+        </span>
+    </header>
     <main>
-        <header>
-            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-            <p>En plein centre ville ou en pleine nature</p>
-
-            <form class="input-group" method="POST">
-                <span class="icon"><i class="maker-icon fas fa-map-marker-alt"></i></span>
-                <input class="search" type="text" id="form1" class="form-control" value="Marseillle, France" />
-                <input class="button-search" value="Recherche" type="submit" />
-            </form>
-
-            <section class="sort">
-                <b>Filtres : </b>
-                <div class="sort-item">
-                    <span class="icon-sort"><i class="fas fa-money-bill-wave"></i></span>
-                    <a class="sort-button">    
-                        <span class="sort-text">Economique</span>
-                    </a>
-                </div>
-
-                <div class="sort-item">
-                    <span class="icon-sort"><i class="fas fa-child"></i></span>
-                    <span class="sort-button">
-                        <a class="sort-text">Famillial</a>
-                    </span>
-                </div>
-                
-                <div class="sort-item">
-                    <span class="icon-sort"><i class="fas fa-heart"></i></span>
-                    <span class="sort-button">
-                        <a class="sort-text"> Romantique</a>
-                    </span>
-                </div>
-
-                <div class="sort-item">
-                    <span class="icon-sort"><i class="fas fa-dog"></i></span>
-                    <span class="sort-button">
-                        <a class="sort-text">Animaux autorisés</a>
-                    </span>
-                </div>
-            </section>
-            <span style="display: flex;align-items: center;"><i class="fas fa-info fa-xs"></i>
-                <p class="free">Plus de 500 logements sont disponible dans cette ville</p>
-            </span>
-        </header>
-        <section id="lodging" class="apparts">
+      
+        <section id="1" class="apparts">
             <div class="choose">
                 <h2>Hébergements à Marseilles</h2>
                 <div class="items">
@@ -170,6 +175,7 @@
                     </div>
 
                 </div>
+                <a class="more" href=""><b>Afficher plus</b></a>
             </div>
             </div>
             <aside class="most-popular">
@@ -230,73 +236,95 @@
 
             </aside>
         </section>
-        <h2>Activités à Marseille</h2>
+       
         <section class="sec-activity">
-            
-            <div class="col-activity big-column">
-                <div class="activity-item ">
-                    <img class="images-activity img-large"
-                        src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
-                    <span class="activity-name">
-                        <h4>Vieux Port</h4>
-                    </span>
-                </div>
-            </div>
+             <h2>Activités à Marseille</h2>
 
-            <div class=" col-activity">
-                <div class="col-activity small-activity">
-                    <div class=" activity-item ">
-                        <img class="images-activity"
-                            src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
-                        <span class="activity-name">
-                            <h4>Parc Nationnal des Calanques</h4>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-activity small-activity">
-                    <div class="activity-item ">
-                        <img class="images-activity"
-                            src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
-                        <span class="activity-name">
-                            <h4>Parc Nationnal des Calanques</h4>
-                        </span>
-                    </div>
-                </div>
-            </div>
+             <div class="activity-items">
 
-            <div class="col-activity big-column">
-                <div class="activity-item">
-                    <img class="images-activity img-large" 
-                            src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
-                    <span class="activity-name">
-                        <h4>Parc Nationnal des Calanques</h4>
-                    </span>
+                <div class="col-activity">
+                    <div class="item-activity large-activity">
+                        <img class="images-activity" src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                            alt="">
+                        <div class="title-activity">
+                            <b>Vieux Port</b>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                
+                <div class="col-activity">
+                    <div class="item-activity small-activity">
+                        <img class="images-activity"  src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                            alt="">
+                        <div class="title-activity">
+                            <b>Fort de Pomègues</b>
+                        </div>
+                    </div>
+                    <div class="item-activity small-activity">
+                        <img class="images-activity" src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                            alt="">
+                        <div class="title-activity">
+                            <b>îles du Frioul</b>
+                        </div>
+                    </div>
+                </div>
 
-            <div class=" col-activity">
-                <div class="col-activity small-activity">
-                    <div class=" activity-item ">
-                        <img class="images-activity"
-                            src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                        <span class="activity-name">
-                            <h4>Parc Nationnal des Calanques</h4>
-                        </span></img>
+                <div class="col-activity">
+                    <div class="item-activity large-activity">
+                        <img class="images-activity" src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                            alt="">
+                        <div class="title-activity">
+                            <b>Parc Nationnal des Calanques</b>
+                        </div>
                     </div>
                 </div>
-                <div class="col-activity small-activity">
-                    <div class=" activity-item ">
-                        <img class="images-activity"
-                            src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
-                        <span class="activity-name">
-                            <h4>Parc Nationnal des Calanques</h4>
-                        </span>
+                
+                <div class="col-activity">
+                    <div class="item-activity small-activity">
+                        <img class="images-activity" src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                            alt="">
+                        <div class="title-activity">
+                            <b>Notre-Dame-de-la-Garde</b>
+                        </div>
+                    </div>
+                    <div class="item-activity small-activity">
+                        <img class="images-activity"  src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                            alt="">
+                        <div class="title-activity">
+                            <b>Parc Longchamp</b>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
+             </div>
         </section>
     </main>
+    <footer>
+
+        <div class="col-footer">
+            <div class="footer-content">
+                <h3>A propos</h3>
+                <p>Fonctionnement du site</p>
+                <p>Conditions dénérales de vente</p>
+                <p>Données et confidentialité</p>
+            </div>
+        </div>
+        
+        <div class="col-footer">
+            <div class="footer-content">
+                <h3>Nos hébergements</h3>
+                <p>Charte qualité</p>
+                <p>Soumettre votre hôtel</p>
+            </div>
+        </div>
+        
+        <div class="col-footer">
+            <div class="footer-content">
+                <h3>Assistance</h3>
+                <p>Centre d'aide</p>
+                <p>Nous contacter</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 
