@@ -304,8 +304,7 @@ input{
 .apparts{
     display: flex;
     flex-wrap: wrap-reverse;
-    
-    max-width: 100vw;
+
 }
 
 .choose{
@@ -315,7 +314,6 @@ input{
     display: flex;
     flex-direction: column;
     margin: 0.5em;
-    min-width: 25em;
 }
 
 .chose-title{
@@ -447,8 +445,6 @@ input{
     padding: 1em;
     margin: 0.5em;
     border-radius: 20px;
-    max-width: 30em;
-    min-width: 20em;
 }
 
 .popular-header {
@@ -587,10 +583,6 @@ input{
 .group-activity{
     display: flex;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1687px){
-   
 }
 
 
