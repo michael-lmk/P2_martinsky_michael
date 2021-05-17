@@ -155,6 +155,7 @@ input{
     background-color: #0065FC;
     text-decoration: none;
     padding: 0.5em;
+    min-width: 50px;
 }
 
 .input-group{
@@ -190,7 +191,7 @@ input{
     margin: 0.5em;
     border: 1px solid lightgray ;
     z-index: -5;
-    min-width: 50px;
+    
 }
 
 .search{
