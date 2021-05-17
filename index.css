@@ -34,21 +34,13 @@ header{
 
 @media screen and (max-width: 891px){
     
-    .large-activity{
-        height: 250px!important;
-        margin: 0em!important;
-        margin-left: 0em!important;
-        margin-right: 0em!important;
-    }
     footer{
         flex-direction: column;
     }
     .col-footer{
         justify-content: flex-start!important;
     }
-    .choose{
-        background-color: white!important;
-    }
+    
     .links{
         flex-direction: column-reverse;
         align-items: flex-end;
@@ -57,6 +49,7 @@ header{
         width: 100%;
       
     }
+    .nav-link:hover,
     .nav-link:focus{
         border-top: 0px solid white !important;
         border-bottom: 3px solid blue;
@@ -111,6 +104,7 @@ nav {
     border-bottom: nonde;
 }
 
+.nav-link:hover, 
 .nav-link:focus {
     color : #0065FC;
     border-top: 2px solid #0065FC;
@@ -120,6 +114,7 @@ nav {
 .logo-site{
     position: absolute;
     top: 5px;
+    left: 25px;
 }
 
 .nav-phone{
@@ -268,6 +263,41 @@ input{
 /*     Debut hébergement    */
 /****************************/
 
+@media screen and (max-width: 1589px){
+    .apparts{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 1198px){
+    .items-group{
+        display: flex;
+        flex-direction: row!important;
+        justify-content: space-around;
+    }
+    .items{
+        flex-direction: column!important;
+    }
+    
+
+}
+
+@media screen and (max-width: 795px){
+   
+    .choose{
+        background-color: white!important;
+    }
+    .items-group{
+        flex-direction: column!important;
+        align-items: center;
+    }
+
+}
+
+.items-group{
+    flex-direction: column;
+}
+
 .apparts{
     display: flex;
     flex-wrap: wrap-reverse;
@@ -277,7 +307,6 @@ input{
 .choose{
     flex: 3;
     background-color: #F2F2F2;
-    
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -297,16 +326,14 @@ input{
 .items{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
 .item{
     display: flex;
     flex-direction: column;
     height: 250px;
-max-width: 350px;
+    max-width: 350px;
     border-radius: 40px;
     border: 7px solid  white;
     margin-bottom: 2em;
@@ -394,11 +421,23 @@ max-width: 350px;
 /*      Debut populaire     */
 /****************************/
 
+@media screen and (max-width: 1589px){
+    .items-popular{
+        flex-direction: row!important;
+    }
+}
+
+@media screen and (max-width: 1198px){
+    .items-popular{
+        flex-wrap: wrap;
+    }
+}
+
+
 .most-popular{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    flex: 1 9;
+    flex: 1;
     background-color: #F2F2F2;
     padding: 1em;
     margin: 0.5em;
@@ -408,14 +447,14 @@ max-width: 350px;
 .popular-header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .items-popular{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
+
 }
 
 .item-popular{
@@ -451,6 +490,36 @@ max-width: 350px;
 /*      Debut activité      */
 /****************************/
 
+@media screen and (max-width: 1600px){
+    .items-group-activity{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .items-group-activity{
+        flex-wrap: wrap;
+    }
+    .large-activity{
+        height: 250px!important;
+        margin: 0!important;
+    }
+    .small-activity{
+        margin: 0!important;
+    }
+    .activity-items{
+        flex-direction: column;
+    }
+    .item-activity{
+        margin-bottom: 2em!important;
+    }
+    
+}
+
+.items-group-activity{
+    display: flex;
+}
+
 .sec-activity{
     display: flex;
     flex-direction: column;
@@ -466,7 +535,7 @@ max-width: 350px;
 .activity-items{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex: 1;
 }
 
 .item-activity{
@@ -525,7 +594,7 @@ footer{
 .col-footer{
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: flex-start;
     
 }
 
