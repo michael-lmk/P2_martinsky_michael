@@ -104,7 +104,7 @@ nav {
 
 .blue{
     color: #0065FC;
-    border-bottom: nonde;
+    border-bottom: none;
 }
 
 .nav-link:hover, 
@@ -151,7 +151,6 @@ input{
     line-height: 100%; 
     border: 0;
     background: #0065FC; 
-    font: none;
     color: white;
     background-color: #0065FC;
     text-decoration: none;
