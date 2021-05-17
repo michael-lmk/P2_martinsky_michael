@@ -166,6 +166,7 @@ input{
     z-index: 100;
     overflow: hidden;
     max-width: 30em;
+    justify-content: space-between;
 }
 
 /****************************/
