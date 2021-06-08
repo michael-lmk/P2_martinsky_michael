@@ -191,8 +191,16 @@ input{
     border-radius: 20px;
     margin: 0.5em;
     border: 1px solid lightgray ;
-    z-index: -5;
     
+    
+}
+
+
+.sort-button:hover{
+    background-color: #F2F2F2; 
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    border: 2px solid #DEEBFF ;
 }
 
 .search{
@@ -220,7 +228,7 @@ input{
     width: 2em;
     color: #0065FC;
     margin-right: -2.8em;
-
+    z-index: 200;
 }
 
 .sort-text{
@@ -232,7 +240,9 @@ input{
     display: flex;
     align-items: center;
     padding-left: 0.5em;
+    text-decoration: none;
 }
+
 
 /****************************/
 /*        Fin filtre        */
