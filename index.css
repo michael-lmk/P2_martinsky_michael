@@ -49,11 +49,13 @@ header{
         width: 100%;
       
     }
+
     .nav-link:hover,
     .nav-link:focus{
         border-top: 0px solid white !important;
         border-bottom: 3px solid blue;
     }
+
     .nav-link{
         border-bottom: 3px solid lightgray;
     }
@@ -69,6 +71,7 @@ header{
     .blue{
         border-bottom: none;
     }
+    .sign-in:hover,
     .sign-in:focus{
         border-bottom: 0px solid white;
     }
@@ -410,15 +413,6 @@ input{
 .rating span:focus,
 .rating span:hover ~ span,
 .rating span:focus ~ span {
-    color: #0065FC;
-    cursor: pointer;
-}
-
-.rating span:hover,
-.rating span:focus,
-.rating span:hover ~ span,
-.rating span:focus ~ span {
-    content: attr(data-color, false);
     color: #0065FC;
     cursor: pointer;
 }
