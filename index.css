@@ -545,7 +545,7 @@ input{
 }
 
 .col-activity{
-
+    align-self: center;
     flex-direction: column;
  
 }
