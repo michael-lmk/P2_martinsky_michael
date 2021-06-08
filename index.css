@@ -354,7 +354,8 @@ input{
     margin-bottom: 2em;
     overflow: hidden;
     filter: drop-shadow(0 0 0.90rem  rgb(153, 153, 153) );
-    
+    text-decoration: none;
+    color: black;
 }
 
 .desc{
@@ -399,30 +400,30 @@ input{
     align-items: flex-end;
 }
 
-.rating a {
+.rating span {
     color: #aaa;
     text-decoration: none;
     transition: color .4s;
 }
 
-.rating a:hover,
-.rating a:focus,
-.rating a:hover ~ a,
-.rating a:focus ~ a {
+.rating span:hover,
+.rating span:focus,
+.rating span:hover ~ span,
+.rating span:focus ~ span {
     color: #0065FC;
     cursor: pointer;
 }
 
-.rating a:hover,
-.rating a:focus,
-.rating a:hover ~ a,
-.rating a:focus ~ a {
+.rating span:hover,
+.rating span:focus,
+.rating span:hover ~ span,
+.rating span:focus ~ span {
     content: attr(data-color, false);
     color: #0065FC;
     cursor: pointer;
 }
 
-.rating a[data-color="true"]{
+.rating span[data-color="true"]{
     color: #0065FC;
     cursor: pointer;
 }
@@ -481,6 +482,8 @@ input{
     margin-bottom: 2em;
     overflow: hidden;
     filter: drop-shadow(0 0 0.90rem  rgb(153, 153, 153) );
+    text-decoration: none;
+    color: black;
 }
 
 .desc-popular{
@@ -562,7 +565,8 @@ input{
     border-radius: 20px;
     overflow: hidden;
     filter: drop-shadow(0 0 0.90rem  rgb(153, 153, 153) );
-    
+    text-decoration: none;
+    color: black;
 }
 
 .images-activity{
@@ -580,6 +584,7 @@ input{
     flex-direction: column;
     background-color: white;
     padding-left: 1em;
+    
 }
 
 
