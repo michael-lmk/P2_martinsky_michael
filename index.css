@@ -75,7 +75,12 @@ header{
     .sign-in:focus{
         border-bottom: 0px solid white;
     }
-
+    .sort-link{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
 
 
