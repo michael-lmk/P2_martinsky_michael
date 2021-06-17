@@ -266,6 +266,11 @@ input{
     font-size: 1em;
 }
 
+.freeDiv{
+    display: flex;
+    align-items: center;
+}
+
 .fa-info{
     margin: 1em;
     padding: 0.5em;
