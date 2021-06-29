@@ -363,7 +363,7 @@ input{
     display: flex;
     flex-direction: column;
     height: 250px;
-    max-width: 350px;
+    width: 350px;
     border-radius: 40px;
     border: 7px solid  white;
     margin-bottom: 2em;
